@@ -1,0 +1,50 @@
+
+
+.profile {
+    width: 350px;
+    box-sizing: border-box;
+    background-color: rgb(228, 216, 216);
+    text-align: center;
+    
+    
+}
+.description{
+padding: 30px 100px 0px;
+font-size: medium;
+    color: rgb(146, 32, 32);
+
+}
+.username{
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+.avatar {
+    width: 150px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    
+}
+.stats{
+display: flex;
+margin: 0px;
+align-items: center;
+padding: 30px 0px 0px;
+
+}
+.unit{
+    width:75px;
+    background-color: aquamarine;
+    border: solid 1px;
+    border-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+}
+.label{
+    font-size: medium;
+    color: rgb(146, 32, 32);
+}
+.quantity{
+    font-weight: bold;
+}

@@ -1,0 +1,16 @@
+.statistics{
+    width: 300px;
+    text-align: center;
+}
+.statList{
+    display: flex;
+    background-color: chocolate;
+    padding-left: 20px;
+    
+    
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
