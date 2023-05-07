@@ -1,6 +1,5 @@
-import transactions from '../data/transactions';
 import style from './style.module.css';
-export default function Transactions() {
+export default function Transactions(props) {
     return (
     <div>
     <table className={style.transactionHistory}>
@@ -14,7 +13,7 @@ export default function Transactions() {
         </thead>
   
             <tbody>
-                {transactions.map(item => (
+                {props.transactions.map(item => (
                     <tr key={item.id} >
                         <td >{item.type} </td>
                         <td>{item.amount}</td>
